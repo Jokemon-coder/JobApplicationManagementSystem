@@ -12,6 +12,21 @@ This project was created as a useful tool for me to keep track of my job applica
 WPF and XAML were used as the backbone of the project, while .NET and C# were used to give functionality to everything and MySQL was used for the database. The version of the project seen here in this repository has functional code and everything to make it work, but I've removed some of the information used to access the database in the configuration file. Examples of the functional application will be given in this README. 
 
 ## Functionality and features
+
+### Initial planning
+Before I set out in actually creating this project, I spent some time planning out in my head as well as on a personal Word-document. What I had layed out have to be in the projects were as follows:
+- The ability to add, edit and delete information.
+- Editing information should be possible directly from the program so that it happens immediately in the database visibly to the user.
+- The information to be added should include: the employer, job title, address, has the job application been replied to, did an interview happen and did employment happen.
+- Some of the information has to be mandatory, some optional. 
+
+I would say that I succeeded in these initial goals very well and ontop of them, I added in other features along the way. Some of these later features were:
+- The about section, in which the user can see information about the program. 
+- The ability to change language between Finnish and English or vice versa. 
+- The date in which the application was sent.
+- A link to the job posting.
+
+
 ### Information
 With this management system, the user is able to upload, alter and delete information in relation to the job applications present in the database. Information to be included are as follows:
 - The ID of the job application used as the primary key within the database. (**Required for entry into the database**)
